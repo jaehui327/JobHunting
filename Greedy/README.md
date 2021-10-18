@@ -16,6 +16,7 @@
 
 
 ### 코드
+- python
 ```python
 n = 1260
 count = 0
@@ -30,11 +31,48 @@ for coin in coin_types:
 print(count)
 ```
 
+- C++
+```c++
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int n = 1260;
+int cnt;
+
+int coinTypes[4] = {500, 100, 50, 10};
+
+int main(void) {
+	for (int i = 0; i < 4; i++) {
+			cnt += n / coinTypes[i];
+			n %= coinTypes[i];
+	}
+	cout << cnt << endl;
+}
+```
+
+- java
+```java
+public class Main {
+
+	public static void main(String[] args) {
+		int n = 1260;
+		int cnt = 0;
+		int[] coinTypes = {500, 100, 50, 10};
+
+		for (int i = 0; i < 4; i++) {
+			cnt += n / coinTypes[i];
+			n %= coinTypes[i];
+		}
+
+		System.out.println(cnt);
+	}
+}
+```
 
 ### 시간 복잡도 분석
 - O(K)
 - 시간 복잡도는 거슬러줘야 하는 금액과는 무관하며, 동전의 총 종류에만 영향을 받음
-
 
 
 
