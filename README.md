@@ -8,8 +8,10 @@
 ## 이것이 코딩 테스트다 with Python
 [[이것이 코딩 테스트다 with Python] 유튜브 강의](https://www.youtube.com/watch?v=Mf0pYO8VAZk&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81)
 
-## 1강 코딩 테스트란 무엇인가?
+## [1강] 코딩 테스트란 무엇인가?
 
+<details markdown="1">
+<summary>온라인 저지 및 개발 환경</summary>
 ### 온라인 저지
 - [코드포스](http://codeforces.com)
 - [탑코더](https://topcoder.com)
@@ -28,8 +30,12 @@
 - 자신만의 소스코드 관리하는 습관 들이기
 - 자주 사용하는 알고리즘 코드 라이브러리화 하기
 
-### IT 기업 코딩 테스트 최신 출제 경향
-#### 출제 빈도가 높은 알고리즘 유형
+</details>
+
+<details markdown="1">
+<summary>IT 기업 코딩 테스트 최신 출제 경향</summary>
+
+### 출제 빈도가 높은 알고리즘 유형
 - 그리디
 - 구현
 - DFS/BFS를 활용한 탐색
@@ -62,9 +68,10 @@
   - 3시간, 4~5문제 (커트라인: 2문제)
   - 탐색, 그리디, 다이나믹 프로그래밍, 구현, 문자열
 
+</details>
 
 
-## 12강 그리디 알고리즘 개요
+## [12강] 그리디 알고리즘 개요
 
 ### 그리디 알고리즘
 - 탐욕법
