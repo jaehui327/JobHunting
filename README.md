@@ -8,8 +8,7 @@
 ## 이것이 코딩 테스트다 with Python
 [[이것이 코딩 테스트다 with Python] 유튜브 강의](https://www.youtube.com/watch?v=Mf0pYO8VAZk&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81)
 
-<details markdown="1">
-<summary>1강 코딩 테스트란 무엇인가?</summary>
+## 1강 코딩 테스트란 무엇인가?
 
 ### 온라인 저지
 - [코드포스](http://codeforces.com)
@@ -63,11 +62,9 @@
   - 3시간, 4~5문제 (커트라인: 2문제)
   - 탐색, 그리디, 다이나믹 프로그래밍, 구현, 문자열
 
-</details>
 
 
-<details markdown="1">
-<summary>12강 그리디 알고리즘 개요</summary>
+## 12강 그리디 알고리즘 개요
 
 ### 그리디 알고리즘
 - 탐욕법
@@ -80,9 +77,10 @@
 - 코딩 테스트에서는 일반적으로 입/출력값이 미리 정해져 있음
   - 탐욕법으로 얻은 해가 최적의 해가 되는 상황에서, 이를 추론할 수 있어야 풀리도록 출제
 
-[거스름돈 문제](https://github.com/jaehui327/CodingTest/tree/main/Greedy#%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88)
+#### [1. 거스름돈](https://github.com/jaehui327/CodingTest/blob/main/Greedy/1.%20%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.md)
 
-</details>
+#### [2. 1이 될 때 까지](https://github.com/jaehui327/CodingTest/blob/main/Greedy/2.%201%EC%9D%B4%20%EB%90%A0%20%EB%95%8C%20%EA%B9%8C%EC%A7%80.md)
+
 
 
 
