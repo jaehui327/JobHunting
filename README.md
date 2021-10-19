@@ -5,14 +5,20 @@
 
 
 
+
+---
+
+
+
 ## 이것이 코딩 테스트다 with Python
 [[이것이 코딩 테스트다 with Python] 유튜브 강의](https://www.youtube.com/watch?v=Mf0pYO8VAZk&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81)
 
-## [1강] 코딩 테스트란 무엇인가?
+### [1강] 코딩 테스트란 무엇인가?
 
 <details markdown="1">
 <summary>온라인 저지 및 개발 환경</summary>
-### 온라인 저지
+
+#### 온라인 저지
 - [코드포스](http://codeforces.com)
 - [탑코더](https://topcoder.com)
 - [리트코드](https://leetcode.com)
@@ -22,11 +28,11 @@
 - [프로그래머스](https://programmers.co.kr)
 - [SW Expert Academy](https://wsexpertacademy.com)
 
-### 온라인 개발 환경 (Python)
+#### 온라인 개발 환경 (Python)
 - [리플릿](https://repl.it/languages/python3)
 - [파이썬 튜터](http://pythontutor.com/visualize.html)
 
-### 자신만의 소스코드 관리하기
+#### 자신만의 소스코드 관리하기
 - 자신만의 소스코드 관리하는 습관 들이기
 - 자주 사용하는 알고리즘 코드 라이브러리화 하기
 
@@ -35,7 +41,7 @@
 <details markdown="1">
 <summary>IT 기업 코딩 테스트 최신 출제 경향</summary>
 
-### 출제 빈도가 높은 알고리즘 유형
+#### 출제 빈도가 높은 알고리즘 유형
 - 그리디
 - 구현
 - DFS/BFS를 활용한 탐색
@@ -71,9 +77,9 @@
 </details>
 
 
-## [12강] 그리디 알고리즘 개요
+### [12강] 그리디 알고리즘 개요
 
-### 그리디 알고리즘
+#### 그리디 알고리즘
 - 탐욕법
 - 현재 상황에서 지금 당장 좋은 것만 고르는 방법
 - 문제를 풀기 위한 최소한의 아이디어를 떠올릴 수 있는 능력을 요구
@@ -84,9 +90,9 @@
 - 코딩 테스트에서는 일반적으로 입/출력값이 미리 정해져 있음
   - 탐욕법으로 얻은 해가 최적의 해가 되는 상황에서, 이를 추론할 수 있어야 풀리도록 출제
 
-#### [1. 거스름돈](https://github.com/jaehui327/CodingTest/blob/main/Greedy/1.%20%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.md)
+##### [1. 거스름돈](https://github.com/jaehui327/CodingTest/blob/main/Greedy/1.%20%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.md)
 
-#### [2. 1이 될 때 까지](https://github.com/jaehui327/CodingTest/blob/main/Greedy/2.%201%EC%9D%B4%20%EB%90%A0%20%EB%95%8C%20%EA%B9%8C%EC%A7%80.md)
+##### [2. 1이 될 때 까지](https://github.com/jaehui327/CodingTest/blob/main/Greedy/2.%201%EC%9D%B4%20%EB%90%A0%20%EB%95%8C%20%EA%B9%8C%EC%A7%80.md)
 
 
 
