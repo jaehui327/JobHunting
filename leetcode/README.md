@@ -1,8 +1,7 @@
 # leetcode
 
 ## 22.01.26
-### 1582. Special Positions in a Binary Matrix
-https://leetcode.com/problems/special-positions-in-a-binary-matrix
+### [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix)
 m x n 배열 mat에서 mat[i][j]가 1일 때, i행과 j행의 다른 값이 모두 0인 값의 개수를 찾아라.
 
 
