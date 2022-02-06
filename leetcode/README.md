@@ -68,3 +68,24 @@ class OrderedStream:
 # obj = OrderedStream(n)
 # param_1 = obj.insert(idKey,value)
 ```
+
+
+
+## 22.02.07
+### [66. Plus One](https://leetcode.com/problems/plus-one/)
+정수 배열 digit(단, digit[i]는 i번째 정수 자릿수)을 1 증가시킨 어레이를 반환하라.
+
+```python
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        plusOne = 0
+        for (i, num) in enumerate(reversed(digits)):
+            plusOne += 10 ** i * num
+        plusOne += 1
+        result = list(map(int, str(plusOne)))
+        return result
+```
+
+#### 풀이법
+digit을 reversed로 역순으로 만들어 10의 i(인덱스) 제곱을 한 수를 각 자릿수에 곱해준다.
+1을 더한 후 map으로 어레이를 만들어 반환
