@@ -89,3 +89,42 @@ class Solution:
 #### 풀이법
 digit을 reversed로 역순으로 만들어 10의 i(인덱스) 제곱을 한 수를 각 자릿수에 곱해준다.
 1을 더한 후 map으로 어레이를 만들어 반환
+
+
+
+## 22.02.09
+### [884. Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)
+주어진 두 문장에서 중복되지 않고 한번 나타나는 단어의 리스트를 반환하라.
+
+- dictionary
+```python
+class Solution(object):
+    def uncommonFromSentences(self, s1, s2):
+        list = s1.split() + s2.split()
+        dict = {}
+        result = []
+        for word in list:
+            if dict.get(word):
+                dict[word] += 1
+            else:
+                dict[word] = 1
+        for key, value in dict.items():
+            if value == 1:
+                result.append(key)
+        return result
+```
+
+- counter
+```python
+class Solution(object):
+    def uncommonFromSentences(self, s1, s2):
+        result = []
+        counter = Counter(s1.split() + s2.split())
+        for key in counter:
+            if counter[key] == 1:
+                result.append(key)
+        return result 
+```
+
+#### 풀이법
+dictionary 또는 counter로 만들어서 단어를 key 값으로 하고 단어의 빈도수를 value로 할 때, value가 1인 단어만 리스트에 넣어 반환한다.
