@@ -128,3 +128,36 @@ class Solution(object):
 
 #### 풀이법
 dictionary 또는 counter로 만들어서 단어를 key 값으로 하고 단어의 빈도수를 value로 할 때, value가 1인 단어만 리스트에 넣어 반환한다.
+
+
+
+## 22.02.15.화
+### [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
+트리 전위순회 -> 후위순회
+
+```python
+# Definition for a binary tree node.
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+        
+class Solution:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        result = []
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            if node:
+                result.insert(0, node.val) # append(node.val)
+                stack.append((node.left))
+                stack.append(node.right)
+        return result
+        # return result[::-1]
+    
+        # if root == None:
+        #     return []
+        # return self.postorderTraversal(root.left) + self.postorderTraversal(root.right) + [root.val]
+
+```
