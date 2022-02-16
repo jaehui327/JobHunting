@@ -161,3 +161,52 @@ class Solution:
         # return self.postorderTraversal(root.left) + self.postorderTraversal(root.right) + [root.val]
 
 ```
+
+
+
+
+## 22.02.17.목
+### [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/)
+
+주어지는 정수 배열을 범위를 나타내는 string 배열로 반환하라. 
+
+1. a와 b가 같지 않고 연속될 때 “a→b”
+2. a와 b가 같을 때 “a”
+
+```python
+class Solution:
+    def summaryRanges(self, nums: List[int]) -> List[str]:
+        result = []
+        temp = []
+        s = ""
+        for (i, n) in enumerate(nums):
+            if i == 0:
+                temp = [n, n]
+            elif n == temp[1] + 1:
+                temp.pop()
+                temp.append(n)
+            else:
+                result.append(temp)
+                temp = [n, n]
+        if temp:
+            result.append(temp)
+        return self.makeString(result)
+
+    def makeString(self, nums: List[List[int]]) -> List[str]:
+        result = []
+        for num in nums:
+            s = str(num[0])
+            if num[0] != num[1]:
+                s += "->" + str(num[1])
+            result.append(s)
+        return result
+```
+
+### 풀이법
+temp는 범위의 시작과 끝을 나타내는 배열
+for문을 돌아 초기에는 temp에 [n, n]을 넣어주고, 연속될 때 temp의 인덱스 1번의 값을 갱신해준다.
+연속되지 않을 때 result에 이차원 배열로 temp 값을 넣어주고 temp를 다시 [n, n]으로 넣는다.
+for문을 벗어났을 때 빈배열이 아닐 경우 result에 넣어주고, string으로 변환하여 리턴한다.
+
+
+
