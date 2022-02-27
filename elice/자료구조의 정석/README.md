@@ -22,7 +22,7 @@ def twoSum(nums, target):
     #     if target - num in nums:
     #         return num, target - num
 
-    # O(n)
+    # O(nlogn)
     nums.sort()
     i = 0
     j = len(nums) - 1
