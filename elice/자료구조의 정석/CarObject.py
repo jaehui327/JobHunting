@@ -12,13 +12,13 @@ class Car:
         
     # 2. 여기에 새로운 오브젝트 함수, speedDown을 추가해 주세요
     # 변화시키고 싶은 속도량을 입력 받은 후, 그만큼 속도록 감소시키는 일을 하는 함수입니다.
-    def speedDown(self, diffSpeed):
-        self.speed -= diffSpeed
+    def speedDown(self, subSpeed):
+        self.speed -= subSpeed
     
     # 3. 여기에 새로운 함수, changeColor를 추가 해 봅시다.
     # 변화시키고 싶은 색을 지정하면, 그 색깔로 차를 도색하는 함수입니다.    
-    def changeColor(self, color):
-        self.color = color
+    def changeColor(self, newColor):
+        self.color = newColor
 
     def wheelChange(self, newWheelType):
         pass
@@ -26,8 +26,7 @@ class Car:
         # Car 객체는 Wheel 객체를 변수로 가지는데요, 
         # 여기에는 새 바퀴의 색상을 입력받고(newWheelType), 이를 바탕으로 새로운 Wheel 객체를 만들어서
         # 자동차의 wheel 데이터에 할당 하는 함수를 적어 봅시다.
-        wheel = Wheel(newWheelType)
-        self.wheel = wheel
+        self.wheel = Wheel(newWheelType)
 
 class Wheel:
     def __init__(self, newWheelType):
