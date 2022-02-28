@@ -114,13 +114,11 @@ class Car:
         self.color = newColor
 
     def wheelChange(self, newWheelType):
-        pass
         # 4. 객체의 데이터로 다른 객체를 사용 할 수도 있습니다. 
         # Car 객체는 Wheel 객체를 변수로 가지는데요, 
         # 여기에는 새 바퀴의 색상을 입력받고(newWheelType), 이를 바탕으로 새로운 Wheel 객체를 만들어서
         # 자동차의 wheel 데이터에 할당 하는 함수를 적어 봅시다.
         wheel = Wheel(newWheelType)
-        self.wheel = wheel
 
 class Wheel:
     def __init__(self, newWheelType):
