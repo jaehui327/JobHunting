@@ -1,111 +1,30 @@
-# CodingTest
-코딩테스트 공부 저장소 🏆 1 day 1 commit 🥇
-
-## Python Algorithm Team Note
+# JobHunting
+좋은 개발자가 되기 위한 여정 🔥
 
 
 
+## 링크 모음
 
----
-
-
-
-## 이것이 코딩 테스트다 with Python
-[[이것이 코딩 테스트다 with Python] 유튜브 강의](https://www.youtube.com/watch?v=Mf0pYO8VAZk&list=PLVsNizTWUw7H9_of5YCB0FmsSc-K44y81)
-
-### [1강] 코딩 테스트란 무엇인가?
-
-<details markdown="1">
-<summary>온라인 저지 및 개발 환경</summary>
-
-#### 온라인 저지
-- [코드포스](http://codeforces.com)
-- [탑코더](https://topcoder.com)
-- [리트코드](https://leetcode.com)
-- [코드셰프](https://www.codechef.com)
-- [백준](https://www.acmicpc.net)
-- [코드업](https://codeup.kr)
-- [프로그래머스](https://programmers.co.kr)
-- [SW Expert Academy](https://wsexpertacademy.com)
-
-#### 온라인 개발 환경 (Python)
-- [리플릿](https://repl.it/languages/python3)
-- [파이썬 튜터](http://pythontutor.com/visualize.html)
-
-#### 자신만의 소스코드 관리하기
-- 자신만의 소스코드 관리하는 습관 들이기
-- 자주 사용하는 알고리즘 코드 라이브러리화 하기
-
-</details>
-
-<details markdown="1">
-<summary>IT 기업 코딩 테스트 최신 출제 경향</summary>
-
-#### 출제 빈도가 높은 알고리즘 유형
-- 그리디
-- 구현
-- DFS/BFS를 활용한 탐색
-
-#### 2019 주요 기업 코딩 테스트 유형 분석
-- 삼성전자
-  - 3시간, 2문제 (커트라인: 2문제)
-  - 완전 탐색, 시뮬레이션 by DFS/BFS, 구현
-  - 기출 문제 유형이 고정적
-- 카카오
-  - 1차: 5시간, 7문제 (커트라인: 4문제)
-    - 구현, 이진 탐색, 자료구조
-  - 2차: 5시간, 1문제, 추천 시스템 개발
-    - 서버 API 통신
-  - 카카오 기술 블로그에 자세한 설명 기재
-- 라인
-  - 3시간, 5~6문제 (커트라인: 3~4문제)
-  - 탐색, 구현, 문자열, 다이나믹 프로그래밍, 자료구조
-
-#### 2018 주요 기업 코딩 테스트 유형 분석
-- 삼성전자
-  - 3시간, 2문제 (커트라인: 1문제)
-  - 완전 탐색, 시뮬레이션 by DFS/BFS, 구현
-- 카카오
-  - 1차: 5시간, 7문제 (커트라인: 3문제)
-    - 구현, 이진 탐색, 자료구조
-  - 2차: 5시간, 1문제, 시뮬레이션 개발
-  - 카카오 기술 블로그에 자세한 설명 기재
-- 라인
-  - 3시간, 4~5문제 (커트라인: 2문제)
-  - 탐색, 그리디, 다이나믹 프로그래밍, 구현, 문자열
-
-</details>
+### 채용 공고
+- [네이버](https://recruit.navercorp.com/naver/recruitMain)
+- [카카오](https://careers.kakao.com/index)
+- [라인](https://careers.linecorp.com/ko/)
+- [쿠팡](https://www.coupang.jobs/kr/)
+- [우아한형제들](https://career.woowahan.com/)
+- [당근마켓](https://team.daangn.com/)
+- [토스](https://toss.im/career)
+- [하이퍼커넥트](https://career.hyperconnect.com/jobs/?team=ENGINEERING)
+- [두나무](https://dunamu.com/views/05_job_ko.html)
+- [NCSOFT](https://careers.ncsoft.com/)
 
 
+### 취준
+- [주니어 개발자를 위한 취업 정보](https://github.com/jojoldu/junior-recruit-scheduler)
+- [공채없이 카카오 개발자 취준기](https://jyami.tistory.com/126)
+- [잘 나가는 IT기업들이 급구하는 ‘찐’ 개발자 덕목 세 가지](https://zdnet.co.kr/view/?no=20210217102022)
 
----
-
-
-
-### [12강] 그리디 알고리즘 개요
-
-#### 그리디 알고리즘
-- 탐욕법
-- 현재 상황에서 지금 당장 좋은 것만 고르는 방법
-- 문제를 풀기 위한 최소한의 아이디어를 떠올릴 수 있는 능력을 요구
-- 정당성 분석이 중요
-  - 단순히 가장 좋아 보이는 것을 반복적으로 선택을 하는 것 만으로도 최적의 해를 보장 할 수 있는지 검토하는 과정이 꼭 필요함
-
-- 일반적인 상황에서 그리디 알고리즘은 최적의 해를 보장할 수 없을 때가 많음
-- 코딩 테스트에서는 일반적으로 입/출력값이 미리 정해져 있음
-  - 탐욕법으로 얻은 해가 최적의 해가 되는 상황에서, 이를 추론할 수 있어야 풀리도록 출제
-
-#### [1. 거스름돈](https://github.com/jaehui327/CodingTest/blob/main/Greedy/1.%20%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.md)
-
-#### [2. 1이 될 때 까지](https://github.com/jaehui327/CodingTest/blob/main/Greedy/2.%201%EC%9D%B4%20%EB%90%A0%20%EB%95%8C%20%EA%B9%8C%EC%A7%80.md)
-
-
-
-
-
-
-
-
-
-
-
+### 면접
+- [30개 기업에서 받은 신입 면접 질문&답변](https://maily.so/1step/posts/4a440c)
+- [네이버 면접시 듣게 되는 41가지 질문](https://www.bloter.net/newsView/blt201512020010)
+- [카카오 면접 시 듣게 되는 70가지 질문](https://www.bloter.net/newsView/blt201512080006)
+- [애플 면접에서 듣게 되는 33가지 질문](https://www.bloter.net/newsView/blt201511300008)
